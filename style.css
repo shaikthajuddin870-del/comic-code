@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#4CAF50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:50px;
+    background:#e8f5e9;
+}
+
+.hero button{
+    padding:10px 20px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+    border-radius:5px;
+}
+
+.hero button:hover{
+    background:#2e7d32;
+}
+
+.courses{
+    padding:30px;
+    text-align:center;
+}
+
+.card{
+    display:inline-block;
+    width:220px;
+    background:white;
+    margin:15px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
